@@ -5,9 +5,12 @@
   "main": "scrub.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node scrub.js"
+    "start": "node scrub.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "rsvp": "^4.8.3"
+  }
 }
